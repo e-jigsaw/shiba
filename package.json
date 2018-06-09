@@ -2,9 +2,15 @@
   "private": true,
   "name": "shiba",
   "description": "shiba-fu",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretty": "prettier index.js --write",
+    "start": "node index.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodegit": "^0.21.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  }
 }
